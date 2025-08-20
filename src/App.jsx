@@ -6,6 +6,7 @@ import Login from "./Components/Refs/Login";
 import { ForwardRefForm } from "./Components/Refs/ForwardRefForm";
 import { FunCompApis } from "./Components/APIs/FunCompApis";
 import ClassCompAPI from "./Components/APIs/ClassCompAPIs";
+import { FormV1 } from "./Components/FormValidations/FormV1";
 
 function App() {
    
@@ -23,8 +24,9 @@ function App() {
         {/* <button onClick={focusInput} >FocusInput</button>
         <ForwardRefForm ref={focusRef} /> */}
         {/* <FunCompApis/> */}
-        <Login/>
+        {/* <Login/> */}
         {/* <ClassCompAPI/> */}
+        <FormV1/>
       </div>
     </>
   );
